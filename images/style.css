@@ -1,0 +1,43 @@
+/* Code tidied up by ScrapBook */
+* { list-style-type: none; margin: 0px; padding: 0px; border: 0px none; }
+body { font-family: "微软雅黑"; }
+body, button, input, select, textarea a { font: 12px/1.5 "Microsoft Yahei",arial,"宋体",tahoma,sans-serif; }
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, iframe, button, textarea, p, blockquote, th, td, img { margin: 0px; padding: 0px; }
+fieldset, img, iframe, button, a { border: 0px none; text-decoration: none; }
+input, select, img { vertical-align: middle; }
+input, button, textarea, select, optgroup, option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+ol, ul { list-style: outside none none; }
+input[type="submit"], input[type="button"], [class^="btn-"], button { cursor: pointer; }
+input::-moz-focus-inner { border: 0px none; padding: 0px; }
+a { text-decoration: none; color: rgb(51, 51, 51); }
+#nav { border: 0px solid rgb(255, 0, 0); height: 120px; width: 830px; float: right; }
+.nav { line-height: 215px; float: left; padding-left: 40px; }
+.nav ul li { float: left; font-size: 14px; display: inline-block; width: 90px; height: 120px; text-align: center; }
+.nav ul li a { font-size: 16px; margin: 0px; width: 90px; height: 120px; display: block; }
+.nav ul li:hover { display: block; width: 90px; height: 120px; margin: 0px; background-color: rgb(81, 57, 31); color: rgb(255, 255, 255); }
+.nav ul li a:hover { display: block; width: 90px; height: 120px; margin: 0px; background-color: rgb(81, 57, 31); color: rgb(255, 255, 255); }
+.nav ul li:hover a { display: block; width: 90px; height: 120px; margin: 0px; background-color: rgb(81, 57, 31); color: rgb(255, 255, 255); }
+.nav ul li ul { display: none; }
+.nav ul li:hover ul { display: block; width: 90px; position: absolute; top: 120px; background-color: rgb(81, 57, 31); z-index: 40; }
+.nav ul li ul li { height: 43px; line-height: 43px; color: rgb(255, 255, 255); width: 90px; font-size: 12px; z-index: 40; }
+.nav ul li:hover ul li a { display: block; height: 43px; line-height: 43px; color: rgb(255, 255, 255); margin: 0px; font-size: 12px; overflow: hidden; text-align: center; }
+.nav ul li:hover ul li:hover, .nav ul li:hover ul li a:hover { height: 43px; line-height: 43px; background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-weight: 300; }
+#top { border: 0px solid rgb(255, 0, 0); height: 120px; width: 1100px; margin: auto; }
+#logo { border: 0px solid rgb(255, 0, 0); float: left; margin-right: 0px; margin-top: 15px; }
+#sousuo { border: 0px solid rgb(0, 204, 255); height: 120px; width: 225px; float: right; }
+.sou-t { height: 24px; float: right; margin-bottom: 25px; padding-top: 40px; font-size: 14px; }
+.sou-t img { padding-bottom: 5px; }
+#banner1 { border: 0px solid rgb(255, 0, 0); height: 200px; margin-top: 10px; }
+#ab { border: 0px solid rgb(255, 0, 0); height: 54px; width: 1100px; margin: auto; }
+#ab .abc { float: right; }
+#ab1 { border: 0px solid rgb(255, 0, 0); height: 34px; width: 142px; margin-top: 20px; background-image: url("ab1.jpg"); font-size: 14px; color: rgb(255, 255, 255); line-height: 32px; text-align: center; float: left; margin-left: 10px; }
+#ab1 a { border: 0px solid rgb(255, 0, 0); height: 34px; width: 142px; background-image: url("ab1.jpg"); font-size: 14px; color: rgb(0, 0, 0); line-height: 32px; text-align: center; float: left; margin-right: 20px; }
+#ab1 a:hover, #ab1 a.cur:hover { background-image: url("ab11.png"); color: rgb(255, 255, 255); }
+#case { border: 0px solid rgb(255, 0, 0); min-height: 600px; width: 1100px; margin: auto; }
+#zn { border: 0px solid rgb(255, 0, 0); min-height: 550px; width: 1200px; margin: 20px auto auto; }
+#about1 { border-width: 0px 0px 2px; border-style: solid; border-color: rgb(255, 0, 0) rgb(255, 0, 0) rgb(81, 57, 31); -moz-border-top-colors: none; -moz-border-right-colors: none; -moz-border-bottom-colors: none; -moz-border-left-colors: none; border-image: none; height: 54px; width: 100%; }
+#ab2 { border: 0px solid rgb(255, 0, 0); height: 32px; width: 200px; margin-top: 20px; font-size: 12px; color: rgb(54, 54, 54); line-height: 32px; float: left; }
+#foot { border: 0px solid rgb(255, 0, 0); height: 28px; width: 1100px; background-image: url("ftbj.jpg"); font-size: 12px; color: rgb(102, 102, 102); line-height: 28px; margin: 10px auto auto; text-align: center; }
+.s-form { background: rgba(0, 0, 0, 0) url("searchbg1.png") no-repeat scroll 0% 0%; width: 172px; height: 24px; position: absolute; margin-top: 95px; margin-left: 50px; }
+.s-form .s-input { width: 169px; padding-left: 13px; height: 23px; line-height: 24px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; position: absolute; top: 1px; left: 0px; color: rgb(195, 195, 195); border: 0px none; }
+.s-form .s-Btn { height: 23px; width: 23px; position: absolute; top: 1px; right: 0px; background: rgba(0, 0, 0, 0) none repeat scroll 0% 0%; cursor: pointer; border: medium none; }
